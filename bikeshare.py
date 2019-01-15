@@ -168,6 +168,12 @@ def user_stats(df):
     print('-'*40)
     
 def raw_data(df):
+     """
+    Asks user if the raw data need to be displayed.
+
+    Returns:
+        five rows of raw data.
+    """
     row_count = 0
     while True:
         raw_datatoview = input('Do you want to review raw data: ').lower().strip()
