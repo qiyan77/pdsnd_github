@@ -8,6 +8,10 @@ Bike-share-system Analysis
 This projects will provide analysis on the bike share use in Chicago, New York City, and Washington, by computing a variety of descriptive statistics. For examples: popular time of travel; popular stations and trip; trip duration and user info, etc.
 
 ### Files used
+chicago.csv
+washinton.csv
+new_york_city.csv
+
 
 
 ### Credits
