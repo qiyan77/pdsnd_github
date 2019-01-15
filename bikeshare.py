@@ -29,7 +29,7 @@ def get_filters():
         
    
 
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday). HINT: Use a while loop to handle invalid inputs
     day_toview = input('Please enter a day to review: ').lower().strip()
     valid_days = ['monday','tuesday','wednesday','thursday','friday','saturday', 'sunday','all']
     while day_toview not in valid_days:
