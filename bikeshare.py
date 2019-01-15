@@ -21,7 +21,7 @@ def get_filters():
     while city_name != 'chicago' and city_name != 'new york city' and city_name != 'washington':
         city_name = input('Please enter a valid city name: ')
 
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # TO DO: get user input for month (all, january, february, ... , june). HINT: Use a while loop to handle invalid inputs
     month_toview = input('Please enter the month to review: ').lower().strip()
     valid_months = ['january','february','march','april','may','june','all'] 
     while month_toview not in valid_months:
